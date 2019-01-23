@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">CriminalIntent</string>
+    <string name="crime_title">Pleas type a crime</string>
+    <string name="crimes_title">Crimes</string>
+    <string name="crime_title_label">Title</string>
+    <string name="crime_details_label">Details</string>
+    <string name="crime_solved_label">Resolved？</string>
+    <string name="date_picker_title">Choose Date:</string>
+    <string name="date_picker_title_nodate">No Date</string>
+    <string name="time_picker_title">Choose Time:</string>
+    <string name="dialog_date_or_time_title">Update Type</string>
+    <string name="dialog_date_or_time_buttonDate_text">Choose Date</string>
+    <string name="dialog_date_or_time_buttonTime_text">Choose Time</string>
+    <string name="crime_list_empty_text">no crime to show</string>
+    <string name="new_crime">New Crime</string>
+    <string name="show_subtitle">Show Subtitle</string>
+    <string name="hide_subtitle">Hide SubTitle</string>
+    <string name="subtitle">If you see something, say something</string>
+    <string name="delete_crime">Delete</string>
+    <string name="delete_crime_photo">Delete Photo</string>
+    <string name="take">Take!</string>
+</resources>

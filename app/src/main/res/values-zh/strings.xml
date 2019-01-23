@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">违规记录</string>
+    <string name="crime_title">请输入一个事件</string>
+    <string name="crimes_title">事件记录</string>
+    <string name="crime_title_label">标题</string>
+    <string name="crime_details_label">详情</string>
+    <string name="crime_solved_label">已解决？</string>
+    <string name="date_picker_title">选择日期：</string>
+    <string name="date_picker_title_nodate">无时间</string>
+    <string name="time_picker_title">选择时间：</string>
+    <string name="dialog_date_or_time_title">修改类别</string>
+    <string name="dialog_date_or_time_buttonDate_text">日期</string>
+    <string name="dialog_date_or_time_buttonTime_text">时间</string>
+    <string name="crime_list_empty_text">没有Crime可以显示</string>
+    <string name="new_crime">添加</string>
+    <string name="show_subtitle">显示子标题</string>
+    <string name="hide_subtitle">隐藏子标题</string>
+    <string name="subtitle">看到什么，说什么</string>
+    <string name="delete_crime">删除</string>
+    <string name="delete_crime_photo">删除照片</string>
+    <string name="take">拍照</string>
+</resources>

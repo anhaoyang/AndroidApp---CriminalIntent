@@ -1,0 +1,36 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.criminalintent">
+
+    <!-- 添加权限 -->
+    <uses-permission android:name="android.permission.CAMERA" />
+    <!-- uses-feature 用来指定应用使用的某项特色功能 -->
+    <uses-feature android:name="android.hardware.camera2" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme" >
+        <activity android:name=".activitys.crime_list.CrimeListActivity"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".activitys.crime_page.CrimePagerActivity">
+            <!-- 定义元数据：告知本Activity的父Activity是谁 -->
+            <meta-data android:name="android.support.PARENT_ACTIVITY"
+                android:value=".activitys.crime_list.CrimeListActivity" />
+        </activity>
+        <!-- screenOrientation保证屏幕为横屏模式landscape -->
+        <!-- exported表示该activity可以被其他应用启动 -->
+        <activity android:name=".activitys.crime_camera_page.CrimeCameraActivity"
+            android:exported="true"
+            android:screenOrientation="landscape"
+            android:label="@string/app_name">
+        </activity>
+    </application>
+</manifest>
